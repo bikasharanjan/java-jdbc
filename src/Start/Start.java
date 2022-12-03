@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import Student.Employee;
 import Student.Student;
 import Student.StudentDao;
 
@@ -84,7 +85,10 @@ public class Start {
 		}
 		
 		System.out.println("thank you .....");
+		Employee e =new Employee();
+		e.printName("bikash");
 
 	}
+	
 
 }
